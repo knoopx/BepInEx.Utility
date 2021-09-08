@@ -20,5 +20,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: BepInEx.Utility.AllInOne
-          path: BepInEx.ResourceUnloadOptimizations/bin/**/*.dll
+          path: bin/**/*.dll
           if-no-files-found: error
